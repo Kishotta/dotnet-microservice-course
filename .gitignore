@@ -7,9 +7,6 @@
 **/bin
 **/obj
 
-# temporary until I figure out whats going on with gitkraken
-**/web
-
 # angular build files
 **/.angular
 **/node_modules

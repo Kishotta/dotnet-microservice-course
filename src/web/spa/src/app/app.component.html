@@ -1,0 +1,20 @@
+<mat-toolbar>
+    <div class="toolbar-container">
+        <span>Dotnet Microservice Course SPA</span>
+        <span class="spacer"></span>
+        <a mat-button aria-label="Home" routerLink="" ariaCurrentWhenActive="page">
+            Home
+        </a>
+        <a mat-button aria-label="Catalog" routerLink="/catalog" ariaCurrentWhenActive="page">
+            Catalog
+        </a>
+        <a mat-button aria-label="Inventory" routerLink="/inventory" ariaCurrentWhenActive="page">
+            Inventory
+        </a>
+    </div>
+</mat-toolbar>
+
+
+<main>
+    <router-outlet class="main-body" />
+</main>
